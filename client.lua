@@ -1,4 +1,4 @@
--- Sağ üst köşede kimlik gösterme için bir fonksiyon
+-- Sol üst köşede kimlik gösterme için bir fonksiyon
 function DrawPlayerID()
     local playerPed = PlayerId()
     local playerServerId = GetPlayerServerId(playerPed)
