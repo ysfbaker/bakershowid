@@ -1,4 +1,3 @@
--- Sol üst köşede kimlik gösterme için bir fonksiyon
 function DrawPlayerID()
     local playerPed = PlayerId()
     local playerServerId = GetPlayerServerId(playerPed)
@@ -11,7 +10,6 @@ function DrawPlayerID()
     DrawText(0.01, 0.01) -- X ve Y koordinatlarını ayarlayarak sağ üst köşeye taşıyın
 end
 
--- Her çerçeve (frame) güncellemesinde kimliği çiz
 CreateThread(function()
     while true do
         Citizen.Wait(0)
