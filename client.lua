@@ -12,7 +12,7 @@ function DrawPlayerID()
 end
 
 -- Her çerçeve (frame) güncellemesinde kimliği çiz
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
         Citizen.Wait(0)
         DrawPlayerID()
