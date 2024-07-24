@@ -7,7 +7,7 @@ function DrawPlayerID()
     SetTextScale(0.4, 0.4)
     SetTextEntry("STRING")
     AddTextComponentString("id: " .. playerServerId)
-    DrawText(0.01, 0.01) -- X ve Y koordinatlarını ayarlayarak sağ üst köşeye taşıyın
+    DrawText(0.01, 0.01)
 end
 
 CreateThread(function()
