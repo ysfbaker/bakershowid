@@ -12,7 +12,7 @@ end
 
 CreateThread(function()
     while true do
-        Citizen.Wait(0)
+        Wait(0)
         DrawPlayerID()
     end
 end)
