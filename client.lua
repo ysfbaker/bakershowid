@@ -1,6 +1,6 @@
 function DrawPlayerID()
-    local playerPed = PlayerId()
-    local playerServerId = GetPlayerServerId(playerPed)
+    local player = PlayerId()
+    local playerServerId = GetPlayerServerId(player)
 
     SetTextFont(4)
     SetTextProportional(0)
@@ -17,4 +17,3 @@ CreateThread(function()
     end
 end)
 
-local isInVehicleCamMode = false
